@@ -5,7 +5,7 @@ export default function About() {
   return (
 
     <div>
-        <Link href="/">
+        <Link className="link" href="/">
           <h1>ProPsique</h1>
         </Link>
       <h1>Adriana Martín</h1>

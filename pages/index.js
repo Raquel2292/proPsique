@@ -18,25 +18,25 @@ export default function Home() {
       </Head>
 
       <div>
-        <Link className="home-link" href="/">
+        <Link className="link" href="/">
           <h1>ProPsique</h1>
         </Link>
-      </div>
 
       <ul>
-        <Link className="home-link" href="/about">
+        <Link className="link" href="/about">
           <>Sobre mí</>
         </Link>
       </ul>
 
       <ul>
-        <Link className="home-link" href="/contactForm">
-          <>Contacta con nosotros</>
+        <Link className="link" href="/contactForm">
+          <>Contáctanos</>
         </Link>
       </ul>
 
-      <Image src="/byn.JPG" alt="prueba" width={250} height={300} />
+      <Image className="image-home" src="/psicologia.jpg" alt="prueba" width={700} height={500} />
 
+      </div>
     </>
   );
 }

@@ -2,19 +2,19 @@ import Link from "next/link";
 
 export default function ContactForm() {
   return (
-    <div>
+    <div className="link">
       <Link href="/">
         <h1>ProPsique</h1>
       </Link>
       
-      <form action="/send-data-here" method="post">
-        <label for="first">Nombre:</label>
-        <input type="text" id="first" name="first" />
-        <label for="last">Apellido:</label>
-        <input type="text" id="last" name="last" />
-        <textarea type="text"></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+      <div>
+      <a href = "mailto: raquel.blazquez.estrada@gmail.com">Mándame un correo</a>
+      </div>
+
+      <div>
+      <a href="tel:+34630976430">Teléfono</a>
+      </div>
+ 
     </div>
   );
 }
