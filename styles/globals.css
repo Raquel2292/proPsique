@@ -13,3 +13,7 @@
     align-content: flex-end;
 
 }
+
+.home-link {
+    text-decoration: none;  /*no funciona*/
+}
